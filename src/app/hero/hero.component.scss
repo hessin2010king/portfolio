@@ -1,0 +1,17 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-image {
+  background: url('/images/background.jpg') no-repeat center center;
+  background-size: cover;
+  width: 35%;
+  height: 50vh; /* Adjust the height as needed */
+}
+
+.hero-text {
+  color: rgb(0, 0, 0);
+  padding: 20px 0; /* Adjust the padding as needed */
+}

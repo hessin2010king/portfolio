@@ -1,0 +1,34 @@
+.bio {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 60px 20px; /* Increased padding for better spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 800px; /* Limit width for better readability */
+  margin: 0 auto; /* Center the section */
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Darker color for heading */
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555; /* Gray color for text */
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    
+    &:hover {
+      background-color: #0056b3; /* Darker shade on hover */
+    }
+  }
+}
