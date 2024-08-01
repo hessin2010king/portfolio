@@ -1,13 +1,22 @@
 import { Component } from '@angular/core';
+import { HeroComponent } from './hero/hero.component';
+import { BioComponent } from './bio/bio.component';
+import { SkillsComponent } from './skills/skills.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { FooterComponent } from './footer/footer.component';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  standalone: true,
+  imports: [
+    RouterOutlet,
+    HeroComponent,
+    BioComponent,
+    SkillsComponent,
+    PortfolioComponent,
+    FooterComponent
+  ]
 })
-export class AppComponent {
-  title = 'portfolio';
-}
+export class AppComponent { }
