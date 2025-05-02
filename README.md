@@ -1,27 +1,56 @@
 # Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+A modern, responsive portfolio website built with Angular 18.1.3 showcasing professional experience, skills, and projects.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Hero section with personal introduction
+- Bio/About section
+- Skills showcase
+- Portfolio/Projects display
+- Footer with contact information
 
-## Code scaffolding
+## Project Structure
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+src/
+├── app/
+│   ├── hero/         # Hero section component
+│   ├── bio/          # Bio/About section component
+│   ├── skills/       # Skills section component
+│   ├── portfolio/    # Portfolio section component
+│   └── footer/       # Footer component
+```
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Landing Page Screenshot](public/images/portfolio-landing-page.png)
 
-## Running unit tests
+## Development
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Prerequisites
 
-## Running end-to-end tests
+- Node.js
+- Angular CLI 18.1.3
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Setup
 
-## Further help
+1. Clone the repository
+2. Run `ng serve` for development server
+3. Navigate to `http://localhost:4200/`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Building
+
+Run `ng build` to build the project. Build artifacts will be stored in `dist/` directory.
+
+### Testing
+
+- `ng test` - Run unit tests via Karma
+- `ng e2e` - Run end-to-end tests
+
+## Technologies Used
+
+- Angular 18.1.3
+- TypeScript
+- SCSS
+- Angular CLI
